@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">iTunesAPI</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="search_hint">Search for an music album in iTunes</string>
+    <string name="search">search</string>
+    <string name="copyright">Copyright:</string>
+    <string name="music_style">Music style:</string>
+    <string name="album_name">Album name:</string>
+    <string name="the_album_cover">The Album cover</string>
+</resources>
