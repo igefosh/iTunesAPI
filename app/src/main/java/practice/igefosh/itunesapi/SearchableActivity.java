@@ -55,6 +55,7 @@ public class SearchableActivity extends AppCompatActivity implements LoaderManag
                 startMusicAlbumActivity.putExtra("name", currentAlbum.getAlbumName());
                 startMusicAlbumActivity.putExtra("copyright", currentAlbum.getCopyright());
                 startMusicAlbumActivity.putExtra("style", currentAlbum.getMusicStyle());
+                startMusicAlbumActivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 // Send the intent to launch a new activity
                 startActivity(startMusicAlbumActivity);
             }
